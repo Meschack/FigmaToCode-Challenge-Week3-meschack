@@ -1,12 +1,26 @@
+'use client'
+
 import { Logo, Wrapper } from '@/components/atoms'
-import { NavbarActions, NavMenu } from '@/components/molecules'
+import {
+  MobileHeaderMenuActions,
+  NavbarActions,
+  NavMenu,
+} from '@/components/molecules'
+import { useState } from 'react'
 
 export const Header = () => {
+  const [open, setOpen] = useState(false)
+
+  const toggleMenuAction = () => {
+    setOpen(!open)
+  }
+
   return (
-    <Wrapper className='flex justify-between items-center'>
+    <Wrapper className='flex justify-between items-center flex-wrap'>
       <Logo />
-      <NavMenu />
       <NavbarActions />
+      <MobileHeaderMenuActions toggle={toggleMenuAction} />
+      <NavMenu className={open ? 'flex' : 'hidden lg:!flex'} />
     </Wrapper>
   )
 }

@@ -1,46 +1,16 @@
-import { Icon } from '@/components/atoms'
-import { LucideIconName } from '@/lib/types'
 import Link from 'next/link'
-
-type Element = {
-  icon: LucideIconName
-  label?: string
-  path: string
-}
-
-const elements: Element[] = [
-  {
-    icon: 'user',
-    label: 'Login / Register',
-    path: '/auth',
-  },
-  {
-    icon: 'search',
-    path: '#',
-  },
-  {
-    icon: 'shopping-cart',
-    path: '/cart',
-  },
-  {
-    icon: 'heart',
-    path: '/wishlist',
-  },
-]
+import { Button } from '@/components/ui/button'
+import { ArrowRight } from 'lucide-react'
 
 export const NavbarActions = () => {
   return (
-    <div className='flex gap-5 items-center justify-between text-blue-500'>
-      {elements.map((element) => (
-        <Link
-          href={element.path}
-          key={element.path}
-          className='flex gap-2 items-center'
-        >
-          <Icon name={element.icon} />
-          {element.label && <span>{element.label}</span>}
-        </Link>
-      ))}
+    <div className='hidden lg:flex lg:order-3 gap-5 items-center justify-between text-blue-500'>
+      <Link href='/login'>Login</Link>
+
+      <Button variant='primary' className='flex items-center gap-3'>
+        <span>Become a member</span>
+        <ArrowRight className='mr-2 h-4 w-4' />
+      </Button>
     </div>
   )
 }

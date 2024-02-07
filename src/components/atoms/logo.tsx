@@ -1,8 +1,16 @@
 import Link from 'next/link'
+import { ComponentPropsWithoutRef } from 'react'
+import { cn } from '@/lib/utils'
 
-export const Logo = () => {
+interface MyProps extends ComponentPropsWithoutRef<'a'> {}
+
+export const Logo = ({ href = '/', className, ...rest }: MyProps) => {
   return (
-    <Link href='/' className=''>
+    <Link
+      href={href}
+      {...rest}
+      className={cn('basis-1/2 lg:basis-auto', className)}
+    >
       <h1>Bandage</h1>
     </Link>
   )

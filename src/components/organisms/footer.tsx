@@ -8,15 +8,19 @@ import {
 
 export const Footer = () => {
   return (
-    <div>
-      <Wrapper className='bg-gray-50 flex justify-between items-center'>
-        <Logo />
-        <SocialLinks />
-      </Wrapper>
+    <div className='bg-white'>
+      <Wrapper className='flex flex-col gap-16'>
+        <div className='flex flex-col gap-8 lg:flex-row lg:justify-between lg:items-center'>
+          <Logo className='text-black' />
+          <SocialLinks />
+        </div>
 
-      <Wrapper className='flex justify-between'>
-        <QuickLinks />
-        <Newsletter />
+        <hr className='hidden md:block' />
+
+        <div className='flex justify-between flex-col xl:flex-row gap-10 xl:gap-0'>
+          <QuickLinks />
+          <Newsletter />
+        </div>
       </Wrapper>
 
       <Wrapper className='bg-gray-50'>

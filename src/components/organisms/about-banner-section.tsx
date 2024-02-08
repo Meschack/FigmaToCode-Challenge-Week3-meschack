@@ -69,7 +69,7 @@ export const AboutBannerSection = () => {
 
           <div className='relative'>
             <div className='hidden xl:block w-[300px] h-[300px] lg:w-[300px] lg:h-[300px] -z-10 left-[50%] -translate-x-[50%] absolute mx-auto rounded-full bg-[#FFE9EA]'></div>
-            <Image src={heroImage} alt='Hero Image' />
+            <Image src={heroImage} alt='Hero Image' priority />
           </div>
         </div>
 

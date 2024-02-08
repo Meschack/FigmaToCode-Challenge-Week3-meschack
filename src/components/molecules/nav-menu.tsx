@@ -3,10 +3,6 @@ import Link from 'next/link'
 
 const links = [
   {
-    path: '/',
-    label: 'Home',
-  },
-  {
     path: '/product',
     label: 'Product',
   },

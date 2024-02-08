@@ -25,7 +25,7 @@ export const ContactCardsSection = () => (
   <Wrapper className='flex flex-col gap-5 items-center bg-[#FAFAFA] md:bg-transparent'>
     <h4 className='uppercase'>Visit our office</h4>
 
-    <p className='font-bold text-3xl'>
+    <p className='font-bold text-3xl text-center'>
       We help small businesses with big ideas
     </p>
 

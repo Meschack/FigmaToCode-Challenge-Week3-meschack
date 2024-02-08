@@ -24,14 +24,18 @@ interface Props {
 
 export const MobileHeaderMenuActions = ({ toggle }: Props) => {
   return (
-    <div className='lg:hidden order-2 lg:order-3 flex gap-5 items-center justify-end text-blue-500 basis-1/2'>
+    <div className='lg:hidden order-2 lg:order-3 flex gap-3 items-center justify-end lg:text-blue-500 text-[#737373] basis-1/2'>
       {elements.map((element) => (
-        <Link href={element.path} key={element.path} className=' p-2'>
+        <Link
+          href={element.path}
+          key={element.path}
+          className='hover:text-blue-500 p-2'
+        >
           <Icon name={element.icon} />
         </Link>
       ))}
 
-      <div onClick={toggle} className='cursor-pointer p-2'>
+      <div onClick={toggle} className='cursor-pointer hover:text-blue-500 p-2'>
         <Icon name='gantt-chart' />
       </div>
     </div>

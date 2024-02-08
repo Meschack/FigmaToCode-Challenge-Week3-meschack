@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
-import { Plus_Jakarta_Sans } from 'next/font/google'
+import { Plus_Jakarta_Sans, Inter } from 'next/font/google'
 import './globals.css'
 import React, { ReactNode } from 'react'
 import { Footer, Header } from '@/components/organisms'
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,7 +19,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={plusJakartaSans.className}>
+      <body className={inter.className}>
         <Header />
         <main>{children}</main>
         <Footer />

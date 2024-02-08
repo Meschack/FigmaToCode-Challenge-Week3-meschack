@@ -1,6 +1,5 @@
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
-import * as React from 'react'
 
 const links = [
   {
@@ -14,6 +13,10 @@ const links = [
   {
     path: '/pricing',
     label: 'Pricing',
+  },
+  {
+    path: '/about',
+    label: 'About',
   },
   {
     path: '/contact',
@@ -31,9 +34,9 @@ export const NavMenu = ({ className, ...rest }: Props) => {
         className,
       )}
     >
-      <ul className='flex gap-5 flex-col lg:flex-row lg:items-center mt-5 lg:mt-0'>
+      <ul className='flex gap-5 flex-col w-full lg:w-max lg:flex-row items-center mt-5 lg:mt-0'>
         {links.map((link) => (
-          <li key={link.label} className='hover:text-blue-500'>
+          <li key={link.label} className='hover:text-blue-500 text-[#737373]'>
             <Link className='' href={link.path}>
               {link.label}
             </Link>

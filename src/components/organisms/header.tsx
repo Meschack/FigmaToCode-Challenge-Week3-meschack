@@ -16,7 +16,7 @@ export const Header = () => {
   }
 
   return (
-    <Wrapper className='flex justify-between items-center flex-wrap'>
+    <Wrapper className='flex justify-between items-center flex-wrap bg-[#F6F6F6] lg:bg-transparent'>
       <Logo />
       <NavbarActions />
       <MobileHeaderMenuActions toggle={toggleMenuAction} />

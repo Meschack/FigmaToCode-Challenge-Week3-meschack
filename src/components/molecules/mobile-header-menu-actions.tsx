@@ -24,7 +24,7 @@ interface Props {
 
 export const MobileHeaderMenuActions = ({ toggle }: Props) => {
   return (
-    <div className='lg:hidden order-2 lg:order-3 flex gap-3 items-center justify-end lg:text-blue-500 text-[#737373] basis-1/2'>
+    <div className='lg:hidden order-2 lg:order-3 flex gap-2 items-center justify-end lg:text-blue-500 text-[#737373] basis-1/2'>
       {elements.map((element) => (
         <Link
           href={element.path}

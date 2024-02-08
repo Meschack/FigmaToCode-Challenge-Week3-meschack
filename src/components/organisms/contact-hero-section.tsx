@@ -28,7 +28,7 @@ export const ContactHeroSection = () => {
           We know how large objects will act, but things on a small scale
         </p>
 
-        <div className='flex flex-col gap-3'>
+        <div className='flex flex-col gap-3 text-center'>
           <strong>Phone : +451 215 215 </strong>
           <strong>Fax : +451 215 215 </strong>
         </div>
@@ -49,7 +49,7 @@ export const ContactHeroSection = () => {
 
       <div className='relative'>
         <div className='hidden xl:block w-[300px] h-[300px] lg:w-[300px] lg:h-[300px] -z-10 left-[50%] -translate-x-[50%] absolute mx-auto rounded-full bg-[#FFE9EA]'></div>
-        <Image src={contactHeroImage} alt='Hero Image' />
+        <Image src={contactHeroImage} alt='Hero Image' priority />
       </div>
     </div>
   )

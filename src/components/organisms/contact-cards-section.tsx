@@ -1,5 +1,6 @@
 import { CardElement } from '@/lib/types'
 import { ContactCard } from '../molecules/contact-card'
+import { Wrapper } from '../atoms'
 
 const cards: CardElement[] = [
   {
@@ -21,13 +22,15 @@ const cards: CardElement[] = [
 ]
 
 export const ContactCardsSection = () => (
-  <div className='flex flex-col gap-5 items-center'>
+  <Wrapper className='flex flex-col gap-5 items-center bg-[#FAFAFA] md:bg-transparent'>
     <h4 className='uppercase'>Visit our office</h4>
 
-    <p>We help small businesses with big ideas</p>
+    <p className='font-bold text-3xl'>
+      We help small businesses with big ideas
+    </p>
 
-    <div className='flex items-center justify-center'>
+    <div className='flex items-center justify-center flex-col md:flex-row gap-10 md:gap-0'>
       {cards.map((card) => ContactCard(card))}
     </div>
-  </div>
+  </Wrapper>
 )

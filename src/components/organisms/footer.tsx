@@ -17,7 +17,7 @@ export const Footer = () => {
 
         <hr className='hidden md:block' />
 
-        <div className='flex justify-between flex-col xl:flex-row gap-10 xl:gap-0'>
+        <div className='flex justify-between flex-col flex-wrap xl:flex-row gap-10 xl:gap-20'>
           <QuickLinks />
           <Newsletter />
         </div>

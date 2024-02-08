@@ -128,6 +128,7 @@ export const AboutBannerSection = () => {
                   src={member.photo}
                   alt={`${member.name}'s photo`}
                   className='w-full'
+                  priority
                 />
 
                 <div className='flex flex-col gap-3 items-center px-3'>
@@ -163,7 +164,7 @@ export const AboutBannerSection = () => {
         </div>
 
         <div className='hidden lg:block'>
-          <Image src={lastImageOnAbout} alt='Last image on about' />
+          <Image src={lastImageOnAbout} alt='Last image on about' priority />
         </div>
       </div>
     </>

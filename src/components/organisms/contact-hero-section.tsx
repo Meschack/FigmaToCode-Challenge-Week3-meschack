@@ -19,16 +19,16 @@ const socials: Social[] = [
 export const ContactHeroSection = () => {
   return (
     <div className='grid grid-colsContactHeroSection-1 lg:grid-cols-2 items-center gap-10 lg:gap-0'>
-      <div className='flex flex-col items-center lg:items-start gap-8'>
+      <div className='flex flex-col items-center lg:items-start gap-8 text-center lg:text-start'>
         <h3 className='uppercase hidden lg:block'>Contact us</h3>
 
         <h2 className='text-3xl'>Get in touch today!</h2>
 
-        <p className='text-gray-600 text-center lg:text-start'>
+        <p className='text-gray-600 lg:text-start'>
           We know how large objects will act, but things on a small scale
         </p>
 
-        <div className='flex flex-col gap-3 text-center'>
+        <div className='flex flex-col gap-3'>
           <strong>Phone : +451 215 215 </strong>
           <strong>Fax : +451 215 215 </strong>
         </div>

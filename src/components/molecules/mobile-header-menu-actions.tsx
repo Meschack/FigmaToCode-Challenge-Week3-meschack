@@ -1,19 +1,20 @@
-import { LucideIconName } from '@/lib/types'
 import { Icon } from '../atoms'
 import Link from 'next/link'
+import { GanttChart, LucideProps, Search, ShoppingCart } from 'lucide-react'
+import { ForwardRefExoticComponent } from 'react'
 
 type Element = {
-  icon: LucideIconName
+  icon: ForwardRefExoticComponent<LucideProps>
   path: string
 }
 
 const elements: Element[] = [
   {
-    icon: 'search',
+    icon: Search,
     path: '/search',
   },
   {
-    icon: 'shopping-cart',
+    icon: ShoppingCart,
     path: '#',
   },
 ]
@@ -31,12 +32,12 @@ export const MobileHeaderMenuActions = ({ toggle }: Props) => {
           key={element.path}
           className='hover:text-blue-500 p-2'
         >
-          <Icon name={element.icon} />
+          <element.icon />
         </Link>
       ))}
 
       <div onClick={toggle} className='cursor-pointer hover:text-blue-500 p-2'>
-        <Icon name='gantt-chart' />
+        <GanttChart />
       </div>
     </div>
   )

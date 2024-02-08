@@ -37,7 +37,7 @@ export const NavMenu = ({ className, ...rest }: Props) => {
       <ul className='flex gap-5 flex-col w-full lg:w-max lg:flex-row items-center mt-5 lg:mt-0'>
         {links.map((link) => (
           <li key={link.label} className='hover:text-blue-500 text-[#737373]'>
-            <Link className='' href={link.path}>
+            <Link className='font-semibold' href={link.path}>
               {link.label}
             </Link>
           </li>

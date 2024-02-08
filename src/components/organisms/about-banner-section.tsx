@@ -144,7 +144,7 @@ export const AboutBannerSection = () => {
         </div>
       </Wrapper>
 
-      <div className='flex mt-5'>
+      <div className='flex mt-5 items-stretch'>
         <div className='bg-blue-500 flex flex-col items-center lg:items-start gap-5 justify-center p-10 lg:p-20 text-white'>
           <h3 className='uppercase'>Work with us</h3>
 
@@ -163,7 +163,7 @@ export const AboutBannerSection = () => {
           </Button>
         </div>
 
-        <div className='hidden lg:block'>
+        <div className='hidden lg:block h-max'>
           <Image src={lastImageOnAbout} alt='Last image on about' priority />
         </div>
       </div>

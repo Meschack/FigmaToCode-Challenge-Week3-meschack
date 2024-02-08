@@ -1,12 +1,7 @@
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
-import { motion } from 'framer-motion'
 
 const links = [
-  {
-    path: '/',
-    label: 'Home',
-  },
   {
     path: '/product',
     label: 'Product',

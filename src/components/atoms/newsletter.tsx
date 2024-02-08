@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button'
 
 export const Newsletter = () => {
   return (
-    <div>
+    <div className='basis-full xl:basis-auto'>
       <h2>Get in touch</h2>
       <form action='' className='flex gap-0 items-stretch mt-10'>
         <Input

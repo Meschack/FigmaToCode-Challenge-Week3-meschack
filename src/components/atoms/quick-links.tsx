@@ -88,7 +88,7 @@ const quickLinks = [
 ]
 export const QuickLinks = () => {
   return (
-    <div className='flex gap-20'>
+    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 xl:gap-20'>
       {quickLinks.map((quickLink) => (
         <div key={quickLink.title}>
           <h2 className='mb-10'>{quickLink.title}</h2>

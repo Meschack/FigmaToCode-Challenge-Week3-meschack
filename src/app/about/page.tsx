@@ -1,5 +1,9 @@
+import { AboutBannerSection } from '@/components/organisms'
+
 const About = () => {
-  return <div></div>
+  return <div>
+    <AboutBannerSection />
+  </div>
 }
 
 export default About

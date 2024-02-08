@@ -5,7 +5,10 @@ interface Props extends ComponentPropsWithoutRef<'div'> {}
 
 export const Wrapper = ({ children, className, ...props }: Props) => {
   return (
-    <div className={cn('py-10 px-20', className)} {...props}>
+    <div
+      className={cn('py-5 px-10 md:px-20 lg:py-10 lg:px-40', className)}
+      {...props}
+    >
       {children}
     </div>
   )

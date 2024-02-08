@@ -65,7 +65,12 @@ export default function ContactPage() {
 
             <div className='flex gap-3 items-center'>
               {socials.map((social) => (
-                <Link href={social.path} target='_blank' className='p-2'>
+                <Link
+                  href={social.path}
+                  target='_blank'
+                  className='p-2'
+                  key={social.path}
+                >
                   <Icon name={social.icon} />
                 </Link>
               ))}
@@ -87,6 +92,7 @@ export default function ContactPage() {
             {cards.map((card) => (
               <div
                 className={`flex flex-col gap-5 items-center ${card.main_element && 'bg-dark-background py-14 text-white'} p-5`}
+                key={card.icon}
               >
                 <Icon name={card.icon} size={64} color='blue' />
 

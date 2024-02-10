@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 const links = [
   {
-    path: '/product',
-    label: 'Product',
+    path: '/team',
+    label: 'Team',
   },
   {
     path: '/pricing',

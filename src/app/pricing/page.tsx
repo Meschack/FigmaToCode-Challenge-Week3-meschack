@@ -214,7 +214,7 @@ const pricing = () => {
             </li>
             <li>
               <Image
-                src='/partners/Vector.svg'
+                src='/partners/Vector-6.svg'
                 alt=''
                 width={100}
                 height={100}

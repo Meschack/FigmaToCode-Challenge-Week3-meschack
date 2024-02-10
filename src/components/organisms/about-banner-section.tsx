@@ -8,7 +8,7 @@ import thirdMember from '@/assets/images/team-1-user-3.png'
 import lastImageOnAbout from '@/assets/images/last-on-about.png'
 
 import { Button } from '../ui/button'
-import { SocialLinks, Wrapper } from '../atoms'
+import { BrandsSection, SocialLinks, Wrapper } from '../atoms'
 import { Play } from 'lucide-react'
 
 const stats = [
@@ -144,7 +144,20 @@ export const AboutBannerSection = () => {
         </div>
       </Wrapper>
 
-      <div className='flex mt-5 items-stretch'>
+      <div className='bg-gray-50 text-center'>
+        <Wrapper className='flex flex-col gap-10 items-center'>
+          <h2 className='text-3xl capitalize'>Big companies are here</h2>
+
+          <p className='text-gray-600'>
+            Problems trying to resolve the conflict between the two major realms
+            of Classical physics: Newtonian mechanics
+          </p>
+
+          <BrandsSection />
+        </Wrapper>
+      </div>
+
+      <div className='flex items-stretch'>
         <div className='bg-blue-500 flex flex-col items-center lg:items-start gap-5 justify-center p-10 lg:p-20 text-white'>
           <h3 className='uppercase'>Work with us</h3>
 

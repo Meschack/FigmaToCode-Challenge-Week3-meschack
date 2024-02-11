@@ -18,11 +18,11 @@ const pricing = () => {
         </div>
         <section className='bg-[#FAFAFA] flex flex-col items-center'>
           <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-4 w-full">
-            <Image className='w-full h-full sm:col-span-2 sm:row-span-2' src="/products/unsplash_Lks7vei-eAg.png" width={100} height={100} />
-            <Image className='w-full h-full' src="/products/unsplash_1-aA2Fadydc.png" width={100} height={100} />
-            <Image className='w-full h-full' src="/products/unsplash_gMsnXqILjp4.png" width={100} height={100} />
-            <Image className='w-full h-full' src="/products/unsplash_mcSDtbWXUZU.png" width={100} height={100} />
-            <Image className='w-full h-full' src="/products/unsplash_PSmDDeXaEWE.png" width={100} height={100} />
+            <Image alt="" className='w-full h-full sm:col-span-2 sm:row-span-2' src="/products/unsplash_Lks7vei-eAg.png" width={100} height={100} />
+            <Image alt="" className='w-full h-full' src="/products/unsplash_1-aA2Fadydc.png" width={100} height={100} />
+            <Image alt="" className='w-full h-full' src="/products/unsplash_gMsnXqILjp4.png" width={100} height={100} />
+            <Image alt="" className='w-full h-full' src="/products/unsplash_mcSDtbWXUZU.png" width={100} height={100} />
+            <Image alt="" className='w-full h-full' src="/products/unsplash_PSmDDeXaEWE.png" width={100} height={100} />
           </div>
         </section>
         <section className='bg-[#FAFAFA] flex flex-col items-center px-10'>
@@ -30,55 +30,55 @@ const pricing = () => {
                     
             <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 w-full">
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-1-1.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-1-1.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-1-2.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-1-2.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-1.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-1.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-2-1.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-2-1.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-2-2.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-2-2.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-2.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-2.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-3-1.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-3-1.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-3-2.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-3-2.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
                 </div>
                 <div className="text-center mb-28">
-                    <Image className='w-full mb-7' src="/team/team-1-user-3.jpg" width={100} height={100} />
+                    <Image alt="" className='w-full mb-7' src="/team/team-1-user-3.jpg" width={100} height={100} />
                     <h4 className='font-bold mb-3'>Username</h4>
                     <p className='text-secondary mb-3'>Profession</p>
                     <SocialLinks justify=" justify-center" />
@@ -96,5 +96,4 @@ const pricing = () => {
     </>
   )
 }
-
 export default pricing

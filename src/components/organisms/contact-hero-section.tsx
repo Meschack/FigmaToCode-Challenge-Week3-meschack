@@ -48,7 +48,16 @@ export const ContactHeroSection = () => {
       </div>
 
       <div className='relative'>
-        <div className='hidden xl:block w-[300px] h-[300px] lg:w-[300px] lg:h-[300px] -z-10 left-[50%] -translate-x-[50%] absolute mx-auto rounded-full bg-[#FFE9EA]'></div>
+        <div className='w-[55%] left-[20%] rounded-colorful-circle'></div>
+
+        <div className='w-[50px] left-[10%] rounded-colorful-circle'></div>
+
+        <div className='w-[25px] right-[20%] top-[50%] rounded-colorful-circle'></div>
+
+        <div className='w-[10px] right-[10%] top-[25%] rounded-colorful-circle !bg-[#977DF4]'></div>
+
+        <div className='w-[10px] left-[10%] bottom-[25%] rounded-colorful-circle !bg-[#977DF4]'></div>
+
         <Image src={contactHeroImage} alt='Hero Image' priority />
       </div>
     </div>

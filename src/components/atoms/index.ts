@@ -1,3 +1,4 @@
+import { AboutVideoSection } from './about-video-section'
 import { BrandsSection } from './brands-section'
 import { Icon } from './icon'
 import { Logo } from './logo'
@@ -14,4 +15,5 @@ export {
   Newsletter,
   Wrapper,
   BrandsSection,
+  AboutVideoSection,
 }

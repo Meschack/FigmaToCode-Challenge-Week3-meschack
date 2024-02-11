@@ -98,3 +98,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.rounded-colorful-circle {
+  @apply aspect-square -z-10 absolute rounded-full bg-[#FFE9EA];
+}

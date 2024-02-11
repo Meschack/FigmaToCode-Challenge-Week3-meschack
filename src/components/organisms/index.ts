@@ -1,4 +1,5 @@
 import { AboutBannerSection } from './about-banner-section'
+import { AboutTeamSection } from './about-team-section'
 import { ContactCardsSection } from './contact-cards-section'
 import { ContactHeroSection } from './contact-hero-section'
 import { Footer } from './footer'
@@ -10,4 +11,5 @@ export {
   AboutBannerSection,
   ContactCardsSection,
   ContactHeroSection,
+  AboutTeamSection,
 }

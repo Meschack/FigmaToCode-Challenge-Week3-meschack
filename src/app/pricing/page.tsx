@@ -1,6 +1,5 @@
-import { SocialLinks } from '@/components/atoms'
 import { SocialCta } from '@/components/atoms/social-cta'
-import Image from 'next/image'
+import { AboutTrustCompany } from '@/components/molecules'
 import React from 'react'
 import { FaChevronRight, FaCircleCheck } from 'react-icons/fa6'
 
@@ -166,62 +165,7 @@ const pricing = () => {
         </div>
         <div className=''>
           <h3 className='text-center'>Trusted By Over 4000 Big Companies</h3>
-          <ul className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-6 items-center gap-16 '>
-            <li>
-              <Image
-                src='/partners/Vector-1.svg'
-                alt=''
-                width={100}
-                height={100}
-                layout='responsive'
-              />
-            </li>
-            <li>
-              <Image
-                src='/partners/Vector-2.svg'
-                alt=''
-                width={100}
-                height={100}
-                layout='responsive'
-              />
-            </li>
-            <li>
-              <Image
-                src='/partners/Vector-3.svg'
-                alt=''
-                width={100}
-                height={100}
-                layout='responsive'
-              />
-            </li>
-            <li>
-              <Image
-                src='/partners/Vector-4.svg'
-                alt=''
-                width={100}
-                height={100}
-                layout='responsive'
-              />
-            </li>
-            <li>
-              <Image
-                src='/partners/Vector-5.svg'
-                alt=''
-                width={100}
-                height={100}
-                layout='responsive'
-              />
-            </li>
-            <li>
-              <Image
-                src='/partners/Vector-6.svg'
-                alt=''
-                width={100}
-                height={100}
-                layout='responsive'
-              />
-            </li>
-          </ul>
+          <AboutTrustCompany />
         </div>
       </section>
       <section className='py-32 px-10'>

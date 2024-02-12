@@ -22,7 +22,7 @@ export const AboutBannerSection = () => {
       </div>
 
       <div className='relative lg:col-span-3'>
-        <div className='w-[70%] left-[20%] rounded-colorful-circle'></div>
+        <div className='w-[50%] left-[20%] rounded-colorful-circle'></div>
 
         <div className='w-[50px] left-[10%] rounded-colorful-circle'></div>
 

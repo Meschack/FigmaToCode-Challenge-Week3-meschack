@@ -1,3 +1,4 @@
+import { Wrapper } from '@/components/atoms'
 import { SocialCta } from '@/components/atoms/social-cta'
 import { AboutTrustCompany } from '@/components/molecules'
 import React from 'react'
@@ -18,7 +19,7 @@ const pricing = () => {
           </li>
         </ul>
       </div>
-      <section className='bg-[#FAFAFA] flex flex-col items-center py-28'>
+      <Wrapper className='bg-[#FAFAFA] flex flex-col items-center '>
         <h2 className='text-3xl font-bold mb-3'>Pricing</h2>
         <p className='text-center w-[40rem] max-w-full text-lg text-secondary mb-12'>
           Problems trying to resolve the conflict between <br /> the two major
@@ -167,7 +168,7 @@ const pricing = () => {
           <h3 className='text-center'>Trusted By Over 4000 Big Companies</h3>
           <AboutTrustCompany />
         </div>
-      </section>
+      </Wrapper>
       <section className='py-32 px-10'>
         <h2 className='text-3xl font-bold text-center mb-4'>Pricing FAQs</h2>
         <p className='text-center max-w-[552px] mx-auto text-xl text-secondary'>
@@ -243,7 +244,7 @@ const pricing = () => {
           </div>
         </div>
         <p className='text-secondary text-center text-xl'>
-          Haven’t got your answer? Contact our support
+          Haven't got your answer? Contact our support
         </p>
       </section>
       <section className='flex flex-col items-center  py-28'>
